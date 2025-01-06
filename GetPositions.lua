@@ -1,11 +1,11 @@
 local Dummyspace = game.Workspace:WaitForChild("Dummyspace")
 
-local PirateStarter = Instance.new("Part", Dummyspace)
-PirateStarter.Name = "PirateStarter"
-PirateStarter.Anchored = true
-PirateStarter.CanCollide = false
-PirateStarter.Transparency = 1
-PirateStarter.CFrame = CFrame.new(1037.30884, 80.7064667, 1594.44678, 0.951819658, 2.68965348e-08, -0.306658387, -4.92265677e-08, 1, -6.50831069e-08, 0.306658387, 7.70431186e-08, 0.951819658)
+local Bandit = Instance.new("Part", Dummyspace)
+Bandit.Name = "Bandit"
+Bandit.Anchored = true
+Bandit.CanCollide = false
+Bandit.Transparency = 1
+Bandit.CFrame = CFrame.new(1037.30884, 80.7064667, 1594.44678, 0.951819658, 2.68965348e-08, -0.306658387, -4.92265677e-08, 1, -6.50831069e-08, 0.306658387, 7.70431186e-08, 0.951819658)
 
 local JungleMonkey1 = Instance.new("Part", Dummyspace)
 JungleMonkey1.Name = "JungleMonkey1"
